@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400i&display=swap');
+
+::selection {
+    background-color: #8261CB;
+    opacity: 1.0;
+    color: #fff;
+}
+
+body {
+    background-color: #def1e7;
+    color: #333;
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        padding: 2em;
+        margin: 0px auto 0px auto; 
+        font-size: 0.7em;
+    }
+}
+
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    line-height: 1.45;
+    font-size: 1.25em;
+}
+
+.center img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.small {
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+}
