@@ -2,7 +2,7 @@
 
 function images
 {
-        for file in `ls ./content/gallery/* | sort -r`; do
+        for file in `ls -1vr ./content/gallery/*`; do
                 echo -e "\t\t<div><img src="content/gallery/${file##*/}" alt="" /></div>\n"
         done
 }
